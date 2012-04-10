@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9E391213DB93670038E33C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9E391113DB93670038E33C /* Cocoa.framework */; };
+		CE9E391C13DB93670038E33C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9E391A13DB93670038E33C /* InfoPlist.strings */; };
+		CE9E391F13DB93670038E33C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E391E13DB93670038E33C /* main.m */; };
+		CE9E392213DB93670038E33C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE9E392013DB93670038E33C /* Credits.rtf */; };
+		CE9E392513DB93670038E33C /* SubsDoctorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E392413DB93670038E33C /* SubsDoctorAppDelegate.m */; };
+		CE9E392813DB93670038E33C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9E392613DB93670038E33C /* MainMenu.xib */; };
+		CE9E393013DB939B0038E33C /* Subtitle.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E392F13DB939B0038E33C /* Subtitle.m */; };
+		CE9E393313DB950B0038E33C /* SubtitleListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9E393213DB950B0038E33C /* SubtitleListController.m */; };
+		CEA8C5CF13FEDD3F00CCC9E0 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA8C5CE13FEDD3F00CCC9E0 /* QTKit.framework */; };
+		CEAB4C4D13F9967A00D20A8D /* SubtitleSyncController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAB4C4C13F9967A00D20A8D /* SubtitleSyncController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9E390D13DB93670038E33C /* SubsDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubsDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9E391113DB93670038E33C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CE9E391413DB93670038E33C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE9E391513DB93670038E33C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE9E391613DB93670038E33C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE9E391913DB93670038E33C /* SubsDoctor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubsDoctor-Info.plist"; sourceTree = "<group>"; };
+		CE9E391B13DB93670038E33C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9E391D13DB93670038E33C /* SubsDoctor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SubsDoctor-Prefix.pch"; sourceTree = "<group>"; };
+		CE9E391E13DB93670038E33C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9E392113DB93670038E33C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CE9E392313DB93670038E33C /* SubsDoctorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubsDoctorAppDelegate.h; sourceTree = "<group>"; };
+		CE9E392413DB93670038E33C /* SubsDoctorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubsDoctorAppDelegate.m; sourceTree = "<group>"; };
+		CE9E392713DB93670038E33C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CE9E392E13DB939B0038E33C /* Subtitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subtitle.h; sourceTree = "<group>"; };
+		CE9E392F13DB939B0038E33C /* Subtitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subtitle.m; sourceTree = "<group>"; };
+		CE9E393113DB950B0038E33C /* SubtitleListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleListController.h; sourceTree = "<group>"; };
+		CE9E393213DB950B0038E33C /* SubtitleListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleListController.m; sourceTree = "<group>"; };
+		CEA8C5CE13FEDD3F00CCC9E0 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		CEAB4C4B13F9967A00D20A8D /* SubtitleSyncController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleSyncController.h; sourceTree = "<group>"; };
+		CEAB4C4C13F9967A00D20A8D /* SubtitleSyncController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleSyncController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9E390A13DB93670038E33C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA8C5CF13FEDD3F00CCC9E0 /* QTKit.framework in Frameworks */,
+				CE9E391213DB93670038E33C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9E390213DB93670038E33C = {
+			isa = PBXGroup;
+			children = (
+				CE9E391713DB93670038E33C /* SubsDoctor */,
+				CE9E391013DB93670038E33C /* Frameworks */,
+				CE9E390E13DB93670038E33C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9E390E13DB93670038E33C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E390D13DB93670038E33C /* SubsDoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9E391013DB93670038E33C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA8C5CE13FEDD3F00CCC9E0 /* QTKit.framework */,
+				CE9E391113DB93670038E33C /* Cocoa.framework */,
+				CE9E391313DB93670038E33C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9E391313DB93670038E33C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E391413DB93670038E33C /* AppKit.framework */,
+				CE9E391513DB93670038E33C /* CoreData.framework */,
+				CE9E391613DB93670038E33C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CE9E391713DB93670038E33C /* SubsDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E393113DB950B0038E33C /* SubtitleListController.h */,
+				CE9E393213DB950B0038E33C /* SubtitleListController.m */,
+				CEAB4C4B13F9967A00D20A8D /* SubtitleSyncController.h */,
+				CEAB4C4C13F9967A00D20A8D /* SubtitleSyncController.m */,
+				CE9E392E13DB939B0038E33C /* Subtitle.h */,
+				CE9E392F13DB939B0038E33C /* Subtitle.m */,
+				CE9E392313DB93670038E33C /* SubsDoctorAppDelegate.h */,
+				CE9E392413DB93670038E33C /* SubsDoctorAppDelegate.m */,
+				CE9E392613DB93670038E33C /* MainMenu.xib */,
+				CE9E391813DB93670038E33C /* Supporting Files */,
+			);
+			path = SubsDoctor;
+			sourceTree = "<group>";
+		};
+		CE9E391813DB93670038E33C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9E391913DB93670038E33C /* SubsDoctor-Info.plist */,
+				CE9E391A13DB93670038E33C /* InfoPlist.strings */,
+				CE9E391D13DB93670038E33C /* SubsDoctor-Prefix.pch */,
+				CE9E391E13DB93670038E33C /* main.m */,
+				CE9E392013DB93670038E33C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9E390C13DB93670038E33C /* SubsDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9E392B13DB93670038E33C /* Build configuration list for PBXNativeTarget "SubsDoctor" */;
+			buildPhases = (
+				CE9E390913DB93670038E33C /* Sources */,
+				CE9E390A13DB93670038E33C /* Frameworks */,
+				CE9E390B13DB93670038E33C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubsDoctor;
+			productName = SubsDoctor;
+			productReference = CE9E390D13DB93670038E33C /* SubsDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9E390413DB93670038E33C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE9E390713DB93670038E33C /* Build configuration list for PBXProject "SubsDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9E390213DB93670038E33C;
+			productRefGroup = CE9E390E13DB93670038E33C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9E390C13DB93670038E33C /* SubsDoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9E390B13DB93670038E33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9E391C13DB93670038E33C /* InfoPlist.strings in Resources */,
+				CE9E392213DB93670038E33C /* Credits.rtf in Resources */,
+				CE9E392813DB93670038E33C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9E390913DB93670038E33C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9E391F13DB93670038E33C /* main.m in Sources */,
+				CE9E392513DB93670038E33C /* SubsDoctorAppDelegate.m in Sources */,
+				CE9E393013DB939B0038E33C /* Subtitle.m in Sources */,
+				CE9E393313DB950B0038E33C /* SubtitleListController.m in Sources */,
+				CEAB4C4D13F9967A00D20A8D /* SubtitleSyncController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9E391A13DB93670038E33C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9E391B13DB93670038E33C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE9E392013DB93670038E33C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9E392113DB93670038E33C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CE9E392613DB93670038E33C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9E392713DB93670038E33C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9E392913DB93670038E33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE9E392A13DB93670038E33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE9E392C13DB93670038E33C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubsDoctor/SubsDoctor-Prefix.pch";
+				INFOPLIST_FILE = "SubsDoctor/SubsDoctor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE9E392D13DB93670038E33C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SubsDoctor/SubsDoctor-Prefix.pch";
+				INFOPLIST_FILE = "SubsDoctor/SubsDoctor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9E390713DB93670038E33C /* Build configuration list for PBXProject "SubsDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9E392913DB93670038E33C /* Debug */,
+				CE9E392A13DB93670038E33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9E392B13DB93670038E33C /* Build configuration list for PBXNativeTarget "SubsDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9E392C13DB93670038E33C /* Debug */,
+				CE9E392D13DB93670038E33C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9E390413DB93670038E33C /* Project object */;
+}
